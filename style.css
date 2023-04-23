@@ -706,8 +706,8 @@ i {
   .tbody tr td {
     border: solid var(--black);
   }
-  .bem {
-    background-color: var(--black);
+  .img {
+    background-color: var(--black) !important;
   }
 }
 
