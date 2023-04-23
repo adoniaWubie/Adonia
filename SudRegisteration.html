@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=DM+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/jpg" href="icon.jpg" class="title-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .fadeIn {
+        border: solid var(--white);
+      }
+    </style>
+    <title>My portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <ul class="ul">
+          <a href="index.html" class="bem hero"
+            ><img src="Logo2.png" alt="" class="img"
+          /></a>
+          <div class="bar-toggle">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="myDep.html">My Department</a></li>
+            <li><a href="links.html">Links</a></li>
+          </div>
+        </ul>
+        <i class="fa fa-bars"></i>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="container_register">
+        <h2 style="margin-bottom: 2rem; text-align: center" class="hero">
+          Please Enter The Information Below
+        </h2>
+        <form action="welcome.php" id="form">
+          <div class="inputBox">
+            <input type="text" id="first-name" required="required" />
+            <label class="label" for="first-name">First name</label>
+          </div>
+          <div class="inputBox">
+            <input type="text" id="last-name" required="required" />
+            <label class="label" for="last-name">Last name</label>
+          </div>
+          <div class="inputBox">
+            <input type="email" id="email" required="required" />
+            <label class="label" for="email">Email</label>
+          </div>
+          <div class="inputBox">
+            <input type="password" id="password" required="required" />
+            <label class="label" for="password">Password</label>
+          </div>
+          <div class="dropdown-menu">
+            <p
+              for="my_dropdown"
+              style="
+                border-bottom: solid var(--white) 3px;
+                margin: 1rem auto -1rem auto;
+                width: fit-content;
+              "
+            >
+              Interested in
+            </p>
+            <br />
+            <select name="my_dropdown">
+              <option value="1" selected disabled>select</option>
+              <option value="1">AI</option>
+              <option value="2">Gaming</option>
+              <option value="3">Streaming</option>
+            </select>
+            <br />
+            <br />
+            <p
+              style="
+                border-bottom: solid var(--white) 3px;
+                width: fit-content;
+                margin: 1rem auto;
+              "
+            >
+              What is your status?
+            </p>
+            <input
+              class="inputs"
+              type="radio"
+              name="my_radio"
+              value="1"
+              checked="checked"
+            />
+            <label for="my_radio_1">Student</label>
+            <input class="inputs" type="radio" name="my_radio" value="2" />
+            <label for="my_radio_2">Staff</label>
+            <input class="inputs" type="radio" name="my_radio" value="3" />
+            <label for="my_radio_3">Teacher</label>
+            <br />
+            <p
+              style="
+                border-bottom: solid var(--white) 3px;
+                width: fit-content;
+                margin: 1rem auto;
+              "
+            >
+              What can you do?
+            </p>
+            <input
+              class="inputs"
+              type="checkbox"
+              name="my_checkbox_1"
+              value="1"
+            />
+            <label for="my_checkbox_1">Code</label>
+
+            <input
+              class="inputs"
+              type="checkbox"
+              name="my_checkbox_2"
+              value="2"
+            />
+            <label for="my_checkbox_2">Design</label>
+
+            <input
+              class="inputs"
+              type="checkbox"
+              name="my_checkbox_3"
+              value="3"
+            />
+            <label for="my_checkbox_3">Speech</label>
+          </div>
+          <button class="btn btn-submit">SUBMIT</button>
+        </form>
+        <section id="section-two">
+          <table class="table">
+            <caption class="caption">
+              Information So far
+            </caption>
+            <thead class="">
+              <th>First name</th>
+              <th>Last name</th>
+              <th>Email</th>
+            </thead>
+            <tbody class="tbody"></tbody>
+          </table>
+        </section>
+        <section class="php"></section>
+
+        <div class="section-popup"></div>
+      </div>
+    </main>
+    <footer id="contact">
+      <div class="footer-container">
+        <h3>Contact Me On</h3>
+        <div class="list-container">
+          <ul class="footer-ul">
+            <li class="footer-list">
+              <a href="https://github.com/adoniaWubie" target="_blank"
+                ><i class="fa fa-github"></i>Github</a
+              >
+            </li>
+            <li class="footer-list">
+              <a href="mailto:adoniawubie@gmail.com"
+                ><i class="fa fa-envelope"></i>Email</a
+              >
+            </li>
+            <li class="footer-list">
+              <a href="https://twitter.com/AdoniaWubie" target="_blank"
+                ><i class="fa fa-twitter"></i>Twitter</a
+              >
+            </li>
+            <li class="footer-list">
+              <a href="https://www.instagram.com/adonia918/" target="_blank"
+                ><i class="fa fa-instagram"></i>Instagram</a
+              >
+            </li>
+            <li class="footer-list">
+              <a
+                href="https://www.linkedin.com/in/adonia-wubie-1028b8262/"
+                target="_blank"
+                ><i class="fa fa-linkedin"></i>Linkdin</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="copy-right">&copy; Copyright <span>2023</span></p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
