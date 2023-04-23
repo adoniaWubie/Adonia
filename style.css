@@ -706,6 +706,9 @@ i {
   .tbody tr td {
     border: solid var(--black);
   }
+  .bem {
+    background-color: var(--black);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
