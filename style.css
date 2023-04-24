@@ -752,3 +752,6 @@ i {
 #launch {
   text-align: center !important;
 }
+#launch::before {
+  content: "";
+}
