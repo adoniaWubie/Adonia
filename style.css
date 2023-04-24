@@ -585,8 +585,7 @@ input:focus ~ .label {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-bottom: 1rem;
+  gap: 20px;
 }
 
 .footer-list a {
@@ -616,7 +615,6 @@ input:focus ~ .label {
   transition: all 0.3s ease-in-out;
   text-decoration: none;
   font-size: 24px;
-  margin-right: 1rem;
 }
 
 i {
