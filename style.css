@@ -578,6 +578,7 @@ input:focus ~ .label {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .footer-list {
@@ -585,7 +586,6 @@ input:focus ~ .label {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 
 .footer-list a {
