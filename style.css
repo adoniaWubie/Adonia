@@ -159,7 +159,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-      margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 #section-two_mydep {
@@ -658,6 +658,10 @@ i {
   .come-down li {
     margin-bottom: 1rem;
     width: 100%;
+  }
+  .wrapper {
+    /* text-align: center; */
+    margin-left: 3rem;
   }
 }
 
