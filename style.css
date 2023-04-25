@@ -40,8 +40,8 @@ header {
   right: 0;
   border-bottom: solid var(--primary) 3px;
   padding: 1rem 0;
-  background-color: rgba(23, 22, 22, 0);
-  background: rgba(23, 22, 22, 0.7);
+  background-color: rgb(23, 22, 22);
+  background: rgb(23, 22, 22);
   backdrop-filter: blur(50px);
   z-index: 99;
 }
