@@ -15,9 +15,9 @@ submissions.forEach((submission) => {
   const tableColumn1 = document.createElement("td");
   const tableColumn2 = document.createElement("td");
   const tableColumn3 = document.createElement("td");
-  // tableColumn1.setAttribute("data-cell", "First name");
-  // tableColumn2.setAttribute("data-cell", "Last name");
-  // tableColumn3.setAttribute("data-cell", "Email");
+  tableColumn1.setAttribute("data-cell", "First name");
+  tableColumn2.setAttribute("data-cell", "Last name");
+  tableColumn3.setAttribute("data-cell", "Email");
   tableColumn1.classList.add("fadeIn");
   tableColumn2.classList.add("fadeIn");
   tableColumn3.classList.add("fadeIn");
@@ -76,7 +76,6 @@ form.addEventListener("submit", (e) => {
   password.value = "";
   document.querySelectorAll(".inputs").forEach((input) => {
     input.checked = false;
-    console.log(input);
   });
   sectionPopup.classList.add("come-back");
   setTimeout(() => {
