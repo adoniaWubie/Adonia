@@ -17,7 +17,7 @@ html {
 :root {
   --black: rgb(23, 22, 22);
   --white: rgb(239, 239, 239);
-  --primary: #2196f3;
+  --primary: rgb(245, 80, 245);
   --secondary: rgb(51, 51, 227);
 }
 
